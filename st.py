@@ -50,7 +50,7 @@ with tab2:
 
 ########## Mayor éxito de un director ###########
 with tab3:
-    st.markdown("Mayor éxito de un director?")
+    st.markdown("Mayor éxito de un director")
     director = movies['director'].values
     sel_dir = st.selectbox('Elige un director', director)
     view_dir = fn.get_director(sel_dir)
@@ -59,14 +59,14 @@ with tab3:
 
 ###########Cantidad de filmaciones por mes y día###########
 with tab4:
-    st.markdown("Cantidad de filmaciones se estrenan por mes?")
+    st.markdown("Cantidad de filmaciones se estrenan por mes")
     meses = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre']
     sel_mes = st.selectbox('Elige un mes del año', meses)
     fil_mes = fn.cantidad_filmaciones_mes(sel_mes)
 
     st.write(fil_mes)
 
-    st.markdown("Cantidad de filmaciones que se estrenan por día de la semana?")
+    st.markdown("Cantidad de filmaciones que se estrenan por día de la semana")
     dias = ['Lunes','Martes','Miércoles','Jueves','Viernes','Sábado','Domingo']
     sel_dia = st.selectbox('Elige un día de la semana', dias)
     fil_dia = fn.cantidad_filmaciones_dia(sel_dia)
@@ -74,7 +74,7 @@ with tab4:
 
 ###########Votos y popularidad###########
 with tab5:
-    st.markdown("Popularidad y rating de título favorito?")
+    st.markdown("Popularidad y rating de título favorito")
     sel_peli2 = st.selectbox('Elige tu película favorita', titulos)
     film_scor = fn.score_titulo(sel_peli2)
     film_vote = fn.votos_titulo(sel_peli2)
