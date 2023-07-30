@@ -12,6 +12,7 @@ Este proyecto permite escalabilidad, con una interfaz mas amigable en diseño, y
 
 ***Resumen de tecnologías utilizadas:*** Python, Streamlit, Fastapi, Scikit-Learn, Pandas, Numpy, Matplotlib, Seaborn. 
 
-### Realizado por Iván Miguel Cepeda
-* correo: abog.ivancepeda@gmail.com
+### Iván Miguel Cepeda
+* abog.ivancepeda@gmail.com
 * [linkedin](https://www.linkedin.com/in/ivancepeda/)
+* [Portafolio](https://ivancepeda.streamlit.app/)
